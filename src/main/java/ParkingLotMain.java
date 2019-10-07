@@ -5,7 +5,7 @@ import Processor.AbstractProcessor;
 
 import java.io.IOException;
 
-public class ParkingLotMain extends CommandConstant {
+public class ParkingLotMain{
 
     public static void main(String[] args){
         String processorType;

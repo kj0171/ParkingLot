@@ -18,6 +18,7 @@
     </dependencies>
 
     <build>
+        <finalName>ParkingLot</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -43,9 +44,6 @@
             </plugin>
 
         </plugins>
-
-
-
     </build>
 
 

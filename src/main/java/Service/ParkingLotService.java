@@ -25,7 +25,7 @@ public class ParkingLotService implements IParkingLotService {
             return -2;
         }
 
-        //Give Lot And Update Parking Lot
+        //Give Slot And Update Parking Lot
         int slot = parkingLot.getParkingSlotQueue().poll();
         updateParkingLotOnCarAddition(parkingLot,vehicle,slot);
         return slot;
